@@ -111,22 +111,22 @@ const handleMouseDown = (e) => {
 ```tsx
 // Component
 function App({ count }: Props) {
-	return <div>{count}</div>;
+  return <div>{count}</div>;
 }
 
 // Type
 interface Props {
-	count: number;
+  count: number;
 }
 
 type Tool = 'select' | 'move';
 
 // Class
 class Car {
-	private model;
-	constructor(model) {
-		this.model = model;
-	}
+  private model;
+  constructor(model) {
+    this.model = model;
+  }
 }
 ```
 
@@ -159,7 +159,7 @@ function getUserInformation(){
 ```jsx
 // good
 function sum(x, y) {
-	const result = x + y;
-	return result;
+  const result = x + y;
+  return result;
 }
 ```
