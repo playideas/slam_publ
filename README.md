@@ -59,35 +59,35 @@ npm run dev
 
 #### lib/components
 
-> 재사용 가능한 컴포넌트들이 위치하는 폴더
+> 재사용 가능한 컴포넌트들이 위치하는 폴더입니다.
 
 - lib/components/layouts
-  - 헤더, 사이드바, 콘텐츠 영역, 푸터 등과 같은 주요 레이아웃 요소들을 관리
+  - 헤더, 사이드바, 콘텐츠 영역 등 주요 레이아웃 요소들을 관리합니다.
 - lib/components/common
-  - 공통으로 사용되는 Modal, DropDown 등과 같은 사용자 인터페이스 요소들을 포함
+  - Modal과 같은 공통 UI 요소들이 위치합니다.
 - lib/components/기타
   - 해당 페이지에서 사용하는 컴포넌트
-  - ex) lib/components/account/signup - 회원가입 페이지에서 사용되는 컴포넌트 모음
-  - ex) lib/components/account/signin - 로그인 페이지에서 사용되는 컴포넌트 모음
-  - ex) lib/components/home - 메인 페이지에서 사용되는 컴포넌트 모음
+  - ex) lib/components/account/signup - 회원가입 페이지 관련 컴포넌트들이 위치합니다.
+  - ex) lib/components/account/signin - 로그인 페이지 관련 컴포넌트들이 위치합니다.
+  - ex) lib/components/home - 메인 페이지 관련 컴포넌트들이 위치합니다.
 
 #### lib/utils
 
-> 정규표현식 패턴이나 공통함수 등 공통으로 사용하는 유틸 파일들이 위치하는 폴더
+> 정규표현식 패턴이나 공통 함수 등 공통으로 사용하는 유틸 파일들이 위치하는 폴더입니다.
 
 #### stores
 
-> 상태 관리를 위한 폴더
+> 상태 관리를 위한 폴더입니다.
 
 #### styles
 
-> 공통으로 사용되는 css 파일들이 포함되는 폴더
+> 공통으로 사용되는 CSS 파일들이 위치하는 폴더입니다.
 
-- 공통으로 사용 안 되는 것은 해당 페이지나 컴포넌트에 직접 css 작성
+- 페이지나 컴포넌트별로 사용되는 CSS는 해당 파일에 직접 작성합니다.
 
 #### types
 
-> 타입을 정의한 폴더
+> 타입 정의 파일들이 위치하는 폴더입니다.
 
 ## Coding convention
 
